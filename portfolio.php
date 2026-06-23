@@ -2,6 +2,10 @@
 <?php include 'includes/navbar.php'; ?>
 
 <!-- HERO -->
+ <title>Shopify Development Services | Accetechnet</title>
+
+<meta name="description"
+content="Shopify Partner Expert helping businesses build high-converting Shopify stores, SaaS platforms, SEO campaigns and AI solutions.">
 
 <section class="py-28">
 
@@ -12,7 +16,7 @@
         </span>
 
         <h1 class="text-6xl font-bold mt-6 mb-8">
-            Projects We've Built
+            Selected Client Success Stories
         </h1>
 
         <p class="text-xl text-slate-400 max-w-4xl mx-auto">
@@ -58,11 +62,11 @@
                         dashboards, and advanced market insights.
                     </p>
 
-                    <a href="https://quantaim.org"
+                    <a href="portfolio/quantaim.php"
                        target="_blank"
                        class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl inline-block">
 
-                        Visit Website →
+                        View Case Study →
 
                     </a>
 
@@ -94,11 +98,11 @@
                         optimized for conversions, branding, and user experience.
                     </p>
 
-                    <a href="https://www.sensajewellery.com/"
+                    <a href="portfolio/sensa.php"
                        target="_blank"
                        class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl inline-block">
 
-                        Visit Website →
+                        View Case Study →
 
                     </a>
 
@@ -130,11 +134,11 @@
                         strong brand identity and optimized customer journey.
                     </p>
 
-                    <a href="https://sixtwelvesclothing.com/"
+                    <a href="portfolio/sixtwelve.php"
                        target="_blank"
                        class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl inline-block">
 
-                        Visit Website →
+                        View Case Study →
 
                     </a>
 
@@ -166,11 +170,11 @@
                         customer retention and streamlined shopping experience.
                     </p>
 
-                    <a href="https://www.musclecomelb.com/"
+                    <a href="portfolio/musclecomelb.php"
                        target="_blank"
                        class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl inline-block">
 
-                        Visit Website →
+                        View Case Study →
 
                     </a>
 
@@ -202,11 +206,11 @@
                         browsing, shopping and checkout performance.
                     </p>
 
-                    <a href="https://amenshoesuk.co.uk/"
+                    <a href="portfolio/amenshoes.php"
                        target="_blank"
                        class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl inline-block">
 
-                        Visit Website →
+                        View Case Study →
 
                     </a>
 
@@ -238,11 +242,11 @@
                         experience and optimized eCommerce functionality.
                     </p>
 
-                    <a href="https://www.zensationalgifts.com.au/"
+                    <a href="portfolio/zensational.php"
                        target="_blank"
                        class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl inline-block">
 
-                        Visit Website →
+                        View Case Study →
 
                     </a>
 
@@ -275,11 +279,11 @@
                         eCommerce infrastructure.
                     </p>
 
-                    <a href="https://butcherbbq.com/"
+                    <a href="portfolio/butcherbbq.php"
                        target="_blank"
                        class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl inline-block">
 
-                        Visit Website →
+                        View Case Study →
 
                     </a>
 

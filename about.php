@@ -36,7 +36,7 @@
             <div>
 
                 <img
-                    src="assets/images/founder/johnmarco.jpg"
+                    src="assets/images/founder/johnmarco-new.jpg"
                     alt="John Marco Garcia"
                     class="w-full max-w-md rounded-3xl border border-slate-800 shadow-2xl">
 
@@ -112,6 +112,70 @@
     </div>
 
 </section>
+<!-- WHY CHOOSE US -->
+
+<section class="py-24 border-t border-slate-800">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <span class="text-cyan-400 uppercase tracking-[4px]">
+                Why Accetechnet
+            </span>
+
+            <h2 class="text-5xl font-bold mt-4">
+                Why Businesses Choose Us
+            </h2>
+
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+
+                <h3 class="text-2xl font-bold mb-4">
+                    Proven Experience
+                </h3>
+
+                <p class="text-slate-400">
+                    More than 12 years helping businesses launch,
+                    scale and optimize their online presence.
+                </p>
+
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+
+                <h3 class="text-2xl font-bold mb-4">
+                    Global Client Base
+                </h3>
+
+                <p class="text-slate-400">
+                    Trusted by businesses across the United States,
+                    United Kingdom, Australia, Canada and beyond.
+                </p>
+
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+
+                <h3 class="text-2xl font-bold mb-4">
+                    Results Focused
+                </h3>
+
+                <p class="text-slate-400">
+                    Every project is built with lead generation,
+                    sales growth and business scalability in mind.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- MISSION -->
 
@@ -138,7 +202,43 @@
     </div>
 
 </section>
+<!-- SERVICES SNAPSHOT -->
 
+<section class="py-24 border-t border-slate-800">
+
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+        <span class="text-cyan-400 uppercase tracking-[4px]">
+            Expertise
+        </span>
+
+        <h2 class="text-5xl font-bold mt-4 mb-12">
+            What We Do Best
+        </h2>
+
+        <div class="grid md:grid-cols-4 gap-6">
+
+            <div class="bg-slate-900 rounded-2xl p-6">
+                Shopify Development
+            </div>
+
+            <div class="bg-slate-900 rounded-2xl p-6">
+                SEO Optimization
+            </div>
+
+            <div class="bg-slate-900 rounded-2xl p-6">
+                SaaS Platforms
+            </div>
+
+            <div class="bg-slate-900 rounded-2xl p-6">
+                AI Solutions
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <!-- CTA -->
 
 <section class="py-28 border-t border-slate-800">

@@ -1,29 +1,30 @@
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/navbar.php'; ?>
 
-<!-- HERO -->
-<section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+<section id="home" class="py-16 lg:py-24 flex items-center justify-center relative overflow-hidden">
+
+    <div class="hero-glow"></div>
 
     <div class="absolute inset-0 bg-gradient-to-b from-cyan-500/10 to-transparent"></div>
 
     <div class="max-w-6xl mx-auto px-6 text-center relative z-10">
 
-        <span class="text-cyan-400 uppercase tracking-[4px] font-medium">
-            Shopify Partner • Top Rated Freelancer • 12+ Years Experience
+        <span class="text-cyan-400 uppercase tracking-[2px] font-medium">
+            Full Stack Developer • Top Rated Freelancer • 12+ Years Experience • Shopify Partner Expert
         </span>
 
-        <h1 class="text-5xl md:text-7xl font-bold mt-8 mb-8 leading-tight">
-            Building Websites
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold mt-8 mb-8 leading-tight">
+            Building High-Converting Websites
             <br>
             That Generate Revenue
         </h1>
 
-        <p class="text-xl text-slate-400 max-w-3xl mx-auto mb-10">
+        <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-10">
             Helping brands scale through Shopify Development, SEO,
             SaaS Platforms, AI Integrations, and Custom Web Applications.
         </p>
 
-        <div class="flex flex-wrap justify-center gap-4 mb-16">
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
 
             <a href="#portfolio"
                class="bg-cyan-500 hover:bg-cyan-600 transition px-8 py-4 rounded-xl font-semibold">
@@ -37,6 +38,47 @@
 
         </div>
 
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-6xl mx-auto mt-8">
+
+    <div class="text-center">
+        <h3 class="text-5xl md:text-6xl font-extrabold text-cyan-400">
+            12+
+        </h3>
+        <p class="text-slate-400 uppercase tracking-wider mt-3">
+            Years Experience
+        </p>
+    </div>
+
+    <div class="text-center">
+        <h3 class="text-5xl md:text-6xl font-extrabold text-cyan-400">
+            218K+
+        </h3>
+        <p class="text-slate-400 uppercase tracking-wider mt-3">
+            Community Members
+        </p>
+    </div>
+
+    <div class="text-center">
+        <h3 class="text-5xl md:text-6xl font-extrabold text-cyan-400">
+            🌟
+
+        </h3>
+        <p class="text-slate-400 uppercase tracking-wider mt-3">
+            Top Rated Upwork
+        </p>
+    </div>
+
+    <div class="text-center">
+        <h3 class="text-5xl md:text-6xl font-extrabold text-cyan-400">
+            Shopify
+        </h3>
+        <p class="text-slate-400 uppercase tracking-wider mt-3">
+            Partner Expert
+        </p>
+    </div>
+
+</div>
+</section>
 <!-- TRUST & AUTHORITY -->
 
 <section class="py-24">
@@ -147,8 +189,6 @@
 
 </section>
 
-</section>
-
 <!-- STATS -->
 <section class="py-20 border-t border-slate-800">
 
@@ -157,12 +197,18 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
 
             <div>
-                <h3 class="text-5xl font-bold text-cyan-400">12+</h3>
+                <h3 class="text-5xl font-bold text-cyan-400 counter"
+    data-target="12">
+    0
+</h3>
                 <p class="text-slate-400 mt-2">Years Experience</p>
             </div>
 
             <div>
-                <h3 class="text-5xl font-bold text-cyan-400">218K+</h3>
+                <h3 class="text-5xl font-bold text-cyan-400 counter"
+    data-target="218">
+    0
+</h3>
                 <p class="text-slate-400 mt-2">Community Members</p>
             </div>
 
@@ -360,7 +406,7 @@
                 <div class="relative">
 
                     <img
-                        src="assets/images/founder/johnmarco.jpg"
+                        src="assets/images/founder/johnmarco-new.jpg"
                         alt="John Marco Garcia"
                         class="w-full max-w-md rounded-3xl border border-slate-800 shadow-2xl">
 
@@ -407,7 +453,7 @@
 
                     <div>
                         <h3 class="text-3xl font-bold text-cyan-400">
-                            216K+
+                            218K+
                         </h3>
                         <p class="text-slate-400">
                             Community Members and counting
@@ -596,7 +642,237 @@
     </div>
 
 </section>
+<section class="py-20 border-t border-slate-800 overflow-hidden">
 
+    <div class="text-center mb-12">
+
+        <span class="text-cyan-400 uppercase tracking-[4px]">
+            Technology Stack
+        </span>
+
+        <h2 class="text-5xl font-bold mt-4">
+            Platforms We Work With
+        </h2>
+
+    </div>
+
+    <div class="marquee">
+
+        <div class="marquee-content">
+
+            <span>Shopify</span>
+            <span>Shopify Plus</span>
+            <span>OpenAI</span>
+            <span>Stripe</span>
+            <span>Klaviyo</span>
+            <span>Mailchimp</span>
+            <span>Google Analytics</span>
+            <span>Google Ads</span>
+            <span>Meta Ads</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>Tailwind CSS</span>
+            <span>JavaScript</span>
+            <span>Zapier</span>
+            <span>Make.com</span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- HOW WE WORK -->
+
+<section class="py-28 border-t border-slate-800">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-20">
+
+            <span class="text-cyan-400 uppercase tracking-[4px]">
+                How We Work
+            </span>
+
+            <h2 class="text-5xl font-bold mt-4 mb-6">
+                A Proven Process For Success
+            </h2>
+
+            <p class="text-slate-400 max-w-3xl mx-auto">
+                Every project follows a structured approach designed to
+                deliver quality, transparency and measurable business results.
+            </p>
+
+        </div>
+
+        <div class="grid md:grid-cols-5 gap-8">
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center">
+                <div class="text-cyan-400 text-5xl font-bold mb-4">01</div>
+                <h3 class="font-bold text-xl mb-3">Discovery</h3>
+                <p class="text-slate-400">
+                    Understanding your goals, business and requirements.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center">
+                <div class="text-cyan-400 text-5xl font-bold mb-4">02</div>
+                <h3 class="font-bold text-xl mb-3">Strategy</h3>
+                <p class="text-slate-400">
+                    Creating a roadmap and technical solution plan.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center">
+                <div class="text-cyan-400 text-5xl font-bold mb-4">03</div>
+                <h3 class="font-bold text-xl mb-3">Development</h3>
+                <p class="text-slate-400">
+                    Building and optimizing your project for success.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center">
+                <div class="text-cyan-400 text-5xl font-bold mb-4">04</div>
+                <h3 class="font-bold text-xl mb-3">Launch</h3>
+                <p class="text-slate-400">
+                    Testing, deployment and performance validation.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center">
+                <div class="text-cyan-400 text-5xl font-bold mb-4">05</div>
+                <h3 class="font-bold text-xl mb-3">Growth</h3>
+                <p class="text-slate-400">
+                    Ongoing support, SEO and business growth initiatives.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHY CHOOSE ACCETECHNET -->
+
+<section class="py-28 border-t border-slate-800">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-20">
+
+            <span class="text-cyan-400 uppercase tracking-[4px]">
+                Why Choose Accetechnet
+            </span>
+
+            <h2 class="text-5xl font-bold mt-4 mb-6">
+                Experience, Expertise & Results
+            </h2>
+
+            <p class="text-slate-400 max-w-3xl mx-auto">
+                We don't just build websites. We help businesses grow through
+                strategic development, SEO, SaaS platforms, AI solutions and
+                high-converting digital experiences.
+            </p>
+
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-500 transition-all">
+
+                <div class="text-5xl mb-6">🏆</div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    12+ Years Experience
+                </h3>
+
+                <p class="text-slate-400">
+                    Over a decade of experience helping businesses launch,
+                    scale and optimize their online presence.
+                </p>
+
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-500 transition-all">
+
+                <div class="text-5xl mb-6">🛍️</div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    Shopify Partner Expert
+                </h3>
+
+                <p class="text-slate-400">
+                    Extensive experience building, customizing and optimizing
+                    Shopify stores for brands worldwide.
+                </p>
+
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-500 transition-all">
+
+                <div class="text-5xl mb-6">⭐</div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    Top Rated Freelancer
+                </h3>
+
+                <p class="text-slate-400">
+                    Trusted by clients globally through Upwork and direct
+                    partnerships with growing brands.
+                </p>
+
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-500 transition-all">
+
+                <div class="text-5xl mb-6">👥</div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    218K+ Community Reach
+                </h3>
+
+                <p class="text-slate-400">
+                    Founder and administrator of one of the largest Shopify
+                    communities helping entrepreneurs worldwide.
+                </p>
+
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-500 transition-all">
+
+                <div class="text-5xl mb-6">⚙️</div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    Full Stack Development
+                </h3>
+
+                <p class="text-slate-400">
+                    Expertise in PHP, MySQL, JavaScript, APIs, SaaS platforms,
+                    Shopify, WordPress and custom web applications.
+                </p>
+
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-500 transition-all">
+
+                <div class="text-5xl mb-6">🤖</div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    AI & Automation
+                </h3>
+
+                <p class="text-slate-400">
+                    Building AI-powered solutions, OpenAI integrations,
+                    workflow automation and modern business tools.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <!-- TESTIMONIALS -->
 
 <section class="py-28 border-t border-slate-800">
@@ -680,7 +956,7 @@
             Let's Work Together
         </span>
 
-        <h2 class="text-5xl md:text-6xl font-bold mt-6 mb-8">
+        <h2 class="text-4xl md:text-6xl font-bold mt-6 mb-8">
             Ready To Build Something Amazing?
         </h2>
 
